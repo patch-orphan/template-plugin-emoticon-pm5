@@ -1,0 +1,16 @@
+Template::Plugin::Filter::Emoticon Installation
+
+# install via cpanminus
+cpanm Template::Plugin::Filter::Emoticon
+
+# install via CPAN shell
+cpan Template::Plugin::Filter::Emoticon
+
+# install via ActivePerl
+ppm install Template::Plugin::Filter::Emoticon
+
+# install manually
+perl Build.PL
+./Build
+./Build test
+./Build install
