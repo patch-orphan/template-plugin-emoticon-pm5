@@ -1,11 +1,11 @@
 NAME
-    Template::Plugin::Filter::Emoticon - Emoticon filter for TT
+    Template::Plugin::Emoticon - Emoticon filter for TT
 
 VERSION
-    This document describes Template::Plugin::Filter::Emoticon version 0.01.
+    This document describes Template::Plugin::Emoticon version 0.01.
 
 SYNOPSIS
-        [% USE Filter.Emoticon('MSN', strict = 1, xhtml = 0) %]
+        [% USE Emoticon('MSN', strict = 1, xhtml = 0) %]
 
         [% 'Hello ;)' | emoticon %]
 

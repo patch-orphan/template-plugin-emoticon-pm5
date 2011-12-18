@@ -3,7 +3,7 @@ use warnings;
 use Module::Build;
 
 my $builder = Module::Build->new(
-    module_name    => 'Template::Plugin::Filter::Emoticon',
+    module_name    => 'Template::Plugin::Emoticon',
     license        => 'perl',
     create_license => 1,
     create_readme  => 1,
@@ -22,9 +22,9 @@ my $builder = Module::Build->new(
     },
     meta_merge => {
         resources => {
-            repository => 'git://github.com/patch/template-plugin-filter-emoticon-pm5.git',
-            homepage   => 'https://github.com/patch/template-plugin-filter-emoticon-pm5',
-            bugtracker => 'https://github.com/patch/template-plugin-filter-emoticon-pm5/issues',
+            repository => 'git://github.com/patch/template-plugin-emoticon-pm5.git',
+            homepage   => 'https://github.com/patch/template-plugin-emoticon-pm5',
+            bugtracker => 'https://github.com/patch/template-plugin-emoticon-pm5/issues',
         },
     },
 );

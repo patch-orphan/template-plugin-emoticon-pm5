@@ -1,4 +1,4 @@
-package Template::Plugin::Filter::Emoticon;
+package Template::Plugin::Emoticon;
 
 use 5.006;
 use strict;
@@ -33,15 +33,15 @@ __END__
 
 =head1 NAME
 
-Template::Plugin::Filter::Emoticon - Emoticon filter for TT
+Template::Plugin::Emoticon - Emoticon filter for TT
 
 =head1 VERSION
 
-This document describes Template::Plugin::Filter::Emoticon version 0.01.
+This document describes Template::Plugin::Emoticon version 0.01.
 
 =head1 SYNOPSIS
 
-    [% USE Filter.Emoticon('MSN', strict = 1, xhtml = 0) %]
+    [% USE Emoticon('MSN', strict = 1, xhtml = 0) %]
 
     [% 'Hello ;)' | emoticon %]
 

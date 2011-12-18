@@ -1,7 +1,7 @@
 Build.PL
 Changes
 INSTALL
-lib/Template/Plugin/Filter/Emoticon.pm
+lib/Template/Plugin/Emoticon.pm
 LICENSE
 MANIFEST			This list of files
 META.json
